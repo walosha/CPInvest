@@ -1,0 +1,53 @@
+.heading-primary {
+  font-size: 3.6rem;
+  font-weight: 700;
+  word-spacing: 1rem;
+  color: #000;
+  padding: 2.9rem;
+  line-height: 4.3rem;
+}
+
+.paragraph-primary {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: left;
+
+  font-size: 1.2rem;
+  font-weight: 200;
+  word-spacing: 0.3rem;
+  padding: 1.9rem;
+}
+.heading-secondary {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  color: #2784c6;
+}
+.heading-tertiary {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px;
+  /* or 114% */
+
+  color: rgba(4, 68, 114, 0.96);
+}
+
+.paragraph-secondary {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+
+  color: #7e7e7e;
+}

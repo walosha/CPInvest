@@ -1,0 +1,130 @@
+.main-navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 3rem;
+}
+
+.section-feature {
+  padding: 5rem 7rem;
+  background-color: #fff;
+
+  & > .feature {
+    width: 73%;
+    margin: 0 auto;
+    @media (max-width: 600px) {
+      width: 85%;
+    }
+  }
+}
+
+.section-download {
+  padding: 5rem 7rem;
+  background-color: #fff;
+  @include respond(tab-port) {
+    padding: 8rem 7rem;
+    margin-top: 20rem;
+  }
+}
+
+.section-focus {
+  padding: 8rem 25rem;
+  background-color: #c3f5ce;
+
+  @include respond(tab-port) {
+    padding: 5rem 9rem;
+  }
+  @include respond(phone) {
+    padding: 5rem 7rem;
+  }
+}
+
+.flex-box {
+  display: flex;
+}
+
+.column-2 {
+  display: flex;
+  flex: 1 1 50%;
+}
+
+.container-image {
+  position: relative;
+  padding: 20px;
+  height: 100%;
+}
+.illustration-image {
+  position: relative;
+  max-width: 603px;
+  height: auto;
+  z-index: 20;
+}
+
+.illustration {
+  position: absolute;
+  top: -22%;
+  left: 0%;
+}
+
+.dot1 {
+  position: absolute;
+  top: 40px;
+  left: 120px;
+}
+
+.dot2 {
+  position: absolute;
+  bottom: 0;
+  right: 55px;
+}
+
+.core-value {
+  display: flex;
+  flex-direction: row;
+}
+
+.core-value-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.core-value-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.core-value-middle {
+  padding: 0 25px;
+}
+
+.value-box {
+  height: 33%;
+}
+
+.app-img-box {
+  border: 2px dashed #2784c6;
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.25));
+  border-radius: 50%;
+}
+
+.value-primary-text {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  color: #2784c6;
+}
+
+.value-paragraph {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+  color: #7e7e7e;
+}

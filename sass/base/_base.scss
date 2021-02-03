@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+
+  @include respond(tab-port) {
+    font-size: 56.55%;
+  }
+
+  @include respond(phone) {
+    font-size: 50%;
+  }
+
+  @include respond(deskop-big) {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: $color-primary-white;
+  line-height: 2.3rem;
+  background-image: linear-gradient(
+    105.87deg,
+    rgba(8, 121, 201, 0.96) 0%,
+    #2784c6 100.1%,
+    rgba(7, 114, 190, 0.00520833) 100.11%,
+    rgba(6, 114, 190, 0) 100.12%,
+    rgba(8, 121, 201, 0.96) 100.12%,
+    rgba(8, 121, 201, 0.96) 100.12%,
+    rgba(8, 121, 201, 0.96) 100.12%,
+    rgba(6, 114, 190, 0) 100.12%
+  );
+}
